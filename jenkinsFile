@@ -10,7 +10,7 @@ pipeline {
         stage('Preparation') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/jluqueco/WebDriverProject.git'
+                git branch: 'main', url: 'https://github.com/jluqueco/WebDriverProject.git'
             }
         }
         stage('Build') {
