@@ -22,7 +22,7 @@ public class SimpliLearnLogin extends BaseClass{
 		
 		WebElement errorMsg = driver.findElement(By.id("msg_box"));
 		String actError = errorMsg.getText();
-		String expError = "The email or password you have entered is invalid.";
+		String expError = "The email or password you have entered is invalid";
 		
 		Assert.assertEquals(actError, expError);
 

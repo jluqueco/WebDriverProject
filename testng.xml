@@ -4,9 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testNG.LoanTest"/>
-      <class name="testNG.AccountTest">
- 
-      </class>
+      <class name="testNG.AccountTest"/>
+ 	  <class name="webDriverTestNG.SimpliLearnLogin"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
